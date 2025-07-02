@@ -1,0 +1,33 @@
+.middle-part{
+    padding-top:230px;
+    padding-right:80px;
+    padding-left:80px;
+    font-size:larger;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 250px;
+    gap:10px;
+    
+}
+.item-row{
+    display: flex;
+    flex-direction: column;
+    width: 175x;
+    height: 220px;
+    background-color: lightblue;
+}
+.sub-item-row{
+    width: 175px;
+    height: 20px;
+    border: 2px solid red;
+    background-color: lightblue;
+}
+.sub-item-row:first-child{
+    width:175px;
+    height:180px;
+}
