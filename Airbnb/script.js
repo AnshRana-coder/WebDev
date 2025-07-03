@@ -11,3 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
     middle.classList.toggle("hide", scrolled);           // hide middle nav
   });
 });
+function toggleHeart(button) {
+    button.classList.toggle('not-liked');
+  }
