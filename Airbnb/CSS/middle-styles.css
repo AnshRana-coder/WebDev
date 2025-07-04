@@ -47,7 +47,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: white;
+  background-color:#f7f7f7;
   color: black;
   padding: 5px 10px;
   border-radius: 20px;
@@ -55,7 +55,9 @@
   font-size: 12px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-
+ .badge:hover{
+  cursor: pointer;
+ }
 
 .heart-btn {
   position: absolute;
