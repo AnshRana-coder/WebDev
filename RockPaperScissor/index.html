@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>RockPaperScissor</title>
-    <link rel="stylesheet" href="Styles.css">
-  </head>
-  <body>
-    
-    <button>Rock</button>
-    <button>Paper</button>
-    <button>Scissor</button>
-    <script src="Script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RockPaperScissor</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+  <p class="heading">GAME OF LUCK</p>
+  <div class="game">
+    <div class="game1"></div>
+    <div class="game1" id="person">
+      <div class="picture" onclick="cyclePersonChoice()">
+        <img id="personImage" src="image/rock.jpg" class="img" alt="Player Choice" />
+        <button id="choiceButton" class="Button1" >ROCK</button>
+      </div>
+    </div>
+    <div class="game1"> 
+      <span class="vs"> VS </span>
+    </div>
+    <div class="game1" id="computer">
+      <div class="picture"><img src="image/Question mark.jpg" class="img" ></div>
+      <!-- <div class="picture"><img src="image/rock.jpg" class="img"></div>
+      <div class="picture"><img src="image/paper.jpg" class="img"></div>
+      <div class="picture"><img src="image/Scissor.jpg" class="img"></div> -->
+    </div>
+    <div class="game1"></div>
+  </div>
+
+  <script src="Script.js"></script>
+</body>
+
 </html>
