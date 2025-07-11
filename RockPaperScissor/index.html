@@ -2,36 +2,52 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RockPaperScissor</title>
-  <link rel="stylesheet" href="Styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <p class="heading">GAME OF LUCK</p>
+  <div class ="heading">GAME OF LUCK</div>
+  
+
   <div class="game">
     <div class="game1"></div>
+
     <div class="game1" id="person">
-      <div class="picture" onclick="cyclePersonChoice()">
-        <img id="personImage" src="image/rock.jpg" class="img" alt="Player Choice" />
-        <button id="choiceButton" class="Button1" >ROCK</button>
+      <div class="picture">
+        <img id="personImage" src="image/rock.jpg" class="img" alt="Player Choice" onclick="cyclePersonChoice()" />
+        <button id="choiceButton" class="Button1" onclick="cyclePersonChoice()">ROCK</button>
       </div>
     </div>
-    <div class="game1"> 
-      <span class="vs"> VS </span>
+
+    <div class="game1">
+      <span class="vs">VS</span>
     </div>
+
     <div class="game1" id="computer">
-      <div class="picture"><img src="image/Question mark.jpg" class="img" ></div>
-      <!-- <div class="picture"><img src="image/rock.jpg" class="img"></div>
-      <div class="picture"><img src="image/paper.jpg" class="img"></div>
-      <div class="picture"><img src="image/Scissor.jpg" class="img"></div> -->
+      <div class="picture">
+        <img id="computerImage" src="image/Question mark.jpg" class="img" alt="Computer Choice" />
+        <button id="computerButton" class="Button1">?????</button>
+      </div>
     </div>
+
     <div class="game1"></div>
   </div>
 
-  <script src="Script.js"></script>
+  <div class="start">
+    <button class="startButton">START</button>
+  </div>
+  <div id="resultModal" class="modal">
+    <div class="modal-content">
+      <p id="resultText">🎉 You Win!</p>
+      <p id="streakText">Streak: 0 | High Score: 0</p>
+      <button onclick="resetGame()">OK</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
