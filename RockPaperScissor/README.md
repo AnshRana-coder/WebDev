@@ -39,12 +39,21 @@ A simple, fun, and responsive **Rock-Paper-Scissors** game built with **HTML**, 
 <img src="https://github.com/user-attachments/assets/1d75cc10-e497-4bef-ab4d-2ff7bd65f550" width="80%">
 
 </details>
+
 ---
 
+## 🔗 Live Demo
+
+Play the game here:  
+👉 [Click to Play Rock-Paper-Scissors](https://your-site-name.netlify.app)
+
+> Works perfectly on desktop, tablet, and mobile!
 ## 🚀 How to Run Locally
 
 1. **Clone or Download** the repository
 2. Open `index.html` in any modern browser
+
+---
 
 ```bash
 git clone https://github.com/AnshRana-coder/RockPaperScissor.git 
