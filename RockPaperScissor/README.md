@@ -45,7 +45,7 @@ A simple, fun, and responsive **Rock-Paper-Scissors** game built with **HTML**, 
 ## 🔗 Live Demo
 
 Play the game here:  
-👉 [Click to Play Rock-Paper-Scissors](https://your-site-name.netlify.app)
+👉 [Click to Play Rock-Paper-Scissors](https://rockpaperscissor-1.netlify.app/)
 
 > Works perfectly on desktop, tablet, and mobile!
 ## 🚀 How to Run Locally
